@@ -1,0 +1,93 @@
+html, body, div, span{
+  margin:0;
+  padding: 1.5px;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  /*box-sizing: border-box;*/
+}
+
+html {overflow-y: scroll; }
+
+body{
+  background: #fafafa url('grey.png');
+  font-family: 'Times New Roman',Helvetica, Arial, sans-serif; 
+  font-size: 100%;
+  line-height: 0.75;
+  padding: 35px 0;
+  margin : 10px;
+}
+
+a { color: #8eadd2;}
+a:hover {color: #6e91b9;}
+
+#card{
+  display: block;
+  width: 900px;
+  background: #f5f5f0;
+  padding: 4.5px 10px;
+  box-shadow: 1px 2px 3px -1px rgba(0,0,0,0.4);
+  border-radius: 3px;
+}
+
+h2{
+  font-size: 1.25em;
+  line-height: 1.55em; 
+  margin-bottom: 4px;
+  color: black;
+}
+
+
+#btn1 {
+  display: inline-block;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+  background-color: #eaeaea;
+  background-image: -webkit-linear-gradient(#fafafa, #eaeaea);
+  background-image: -moz-linear-gradient(#fafafa, #eaeaea);
+  background-image: -ms-linear-gradient(top, #fafafa, #eaeaea);
+  background-image: -o-linear-gradient(top, #fafafa, #eaeaea);
+  background-image: linear-gradient(#fafafa, #eaeaea);
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  border-bottom-color: #c5c5c5;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+
+#btn1:hover {
+  background-color: #dadada;
+  background-image: -webkit-linear-gradient(#eaeaea, #dadada);
+  background-image: -moz-linear-gradient(#eaeaea, #dadada);
+  background-image: -ms-linear-gradient(top, #eaeaea, #dadada);
+  background-image: -o-linear-gradient(top, #eaeaea, #dadada);
+  background-image: linear-gradient(#eaeaea, #dadada);
+  border-color: #ccc #ccc #b5b5b5;
+}
+
+
+#btn1:active {
+  background-color:#dadada;
+  background-image: none;
+  border-color: #b5b5b5;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.25);
+  -moz-box-shadow: inset 0 3px 5px rgba(0,0,0,0.25);
+  box-shadow: inset 0 3px 5px rgba(0,0,0,0.25);
+}
+
+
+
+p.border {border: solid 1px #7a7a7a;}
+.card1 {width:180px !important ; background-color: #ddd; box-shadow: 1;display: inline-block;margin-left: 1.75em}
+.img1 {width : inherit; }
+#main
+{}
+
+.fa {margin-top: -275px; margin-left: 160px; z-index: 1 } 
